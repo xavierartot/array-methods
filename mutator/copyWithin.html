@@ -10,7 +10,8 @@
 	Array.prototype.copyWithin();
 	Copies a sequence of elements within an array to another position within the array
 	Returns the modified array
-	ES6 Method
+  Support
+	*******ES6 Method
 */
 const RAPPERS = ['Kanye West', 'Drake', 'Jay Z', 'Desiigner', 'Eminem'];
 
@@ -19,16 +20,20 @@ const RAPPERS = ['Kanye West', 'Drake', 'Jay Z', 'Desiigner', 'Eminem'];
 // end default is arr.length
 
 // Copy Kanye to Jay Z
-RAPPERS.copyWithin(2, 0);
+//RAPPERS.copyWithin(2, 0);
+//console = Array [ "Kanye West", "Drake", "Kanye West", "Drake", "Jay Z" ]
+//console.log(RAPPERS );
 
 // copy eminem to kanye west
-RAPPERS.copyWithin(0, -1);
+//RAPPERS.copyWithin(0, -1);
+//console = Array [ "Eminem", "Drake", "Jay Z", "Desiigner", "Eminem" ]
+//console.log(RAPPERS );
 
 // Copy to JayZ
 // Kanye West, Drake, Jay Z
 RAPPERS.copyWithin(-3, 0, 2);
-
 console.log(RAPPERS);
+//console Array [ "Kanye West", "Drake", "Kanye West", "Drake", "Eminem" ]
 </script>
 </body>
 </html>

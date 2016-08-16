@@ -14,13 +14,14 @@
 
 const RAPPERS = ['Kanye West', 'Drake', 'Jay Z', 'Desiigner', 'Eminem'];
 
-const newArrayLength = RAPPERS.push('Andre 300', 'Nas', 'BIG');
+const NEWARRAYlENGTH = RAPPERS.push('Andre 300', 'Nas', 'BIG');
 
-console.log(RAPPERS);
-console.log(newArrayLength);
+//console.log(RAPPERS);
+//console.log(NEWARRAYlENGTH );
 
-const nigerianrAPPERS = ['Wiz Kid', 'Davido'];
-Array.prototype.push.apply(RAPPERS, nigerianrAPPERS);
+const NIGERIANRAPPERS = ['Wiz Kid', 'Davido'];
+// combine two Array
+Array.prototype.push.apply(RAPPERS, NIGERIANRAPPERS);
 
 console.log(RAPPERS);
 
