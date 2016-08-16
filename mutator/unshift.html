@@ -12,17 +12,17 @@
 	Returns the new length of the array
 */
 
-const rappers = ['Kanye West', 'Drake', 'Jay Z', 'Desiigner', 'Eminem'];
+const RAPPERS = ['kAnye West', 'Drake', 'Jay Z', 'Desiigner', 'Eminem'];
 
-const newArrayLength = rappers.unshift('Andre 300', 'Nas', 'BIG');
+const NEWARRAYLENGTH = rappers.unshift('Andre 300', 'Nas', 'BIG');
 
-console.log(rappers);
-console.log(newArrayLength);
+console.log(RAPPERS);
+console.log(NEWARRAYLENGTH );
 
-const nigerianRappers = ['Wiz Kid', 'Davido'];
-Array.prototype.unshift.apply(rappers, nigerianRappers);
+const NIGERIANRAPPERS = ['Wiz Kid', 'Davido'];
+Array.prototype.unshift.apply(RAPPERS, NIGERIANRAPPERS);
 
-console.log(rappers);
+console.log(RAPPERS);
 </script>
 </body>
 </html>

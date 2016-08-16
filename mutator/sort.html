@@ -12,16 +12,16 @@
 	Returns the newly sorted array
 */
 
-const rappers = ['Kanye West', 'Drake', 'Jay Z', 'Desiigner', 'Eminem'];
+const RAPPERS = ['Kanye West', 'Drake', 'Jay Z', 'Desiigner', 'Eminem'];
 
 // Default sort is according to string Unicode code points
 // So alphabetically or numerically
-const defaultSort = rappers.sort();
-console.log(rappers);
+const defaultSort = RAPPERS.sort();
+console.log(RAPPERS);
 
 
 // Pass it a function
-const favRappers = [
+const FAVRAPPERS = [
 	{
 		name: 'Kanye West',
 		rating: 90
@@ -45,7 +45,7 @@ const favRappers = [
 ]
 
 
-favRappers.sort(function(a, b) {
+FAVRAPPERS.sort(function(a, b) {
 
 	if ( a.rating > b.rating ) {
 		// If you want a to have a lower index, i.e. a is first
@@ -61,7 +61,7 @@ favRappers.sort(function(a, b) {
 	return 0;
 });
 
-console.log(favRappers);
+console.log(fAVRAPPERS);
 	
 </script>
 </body>

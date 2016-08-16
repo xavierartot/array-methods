@@ -12,23 +12,23 @@
 	Returns the modified array
 	ES6 Method
 */
-const rappers = ['Kanye West', 'Drake', 'Jay Z', 'Desiigner', 'Eminem'];
+const RAPPERS = ['Kanye West', 'Drake', 'Jay Z', 'Desiigner', 'Eminem'];
 
 // args(index to copy to, index to start copying from, index to end copying from)
 // start default is 0
 // end default is arr.length
 
 // Copy Kanye to Jay Z
-rappers.copyWithin(2, 0);
+RAPPERS.copyWithin(2, 0);
 
 // copy eminem to kanye west
-rappers.copyWithin(0, -1);
+RAPPERS.copyWithin(0, -1);
 
 // Copy to JayZ
 // Kanye West, Drake, Jay Z
-rappers.copyWithin(-3, 0, 2);
+RAPPERS.copyWithin(-3, 0, 2);
 
-console.log(rappers);
+console.log(RAPPERS);
 </script>
 </body>
 </html>
