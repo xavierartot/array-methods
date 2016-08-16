@@ -1,4 +1,4 @@
-##Install the workflow to have the livereload
+##Install the workflow to have livereload
 -   Install livereload extension on Firefox or Chrome
 -   Install Grunt and npm
 -   in the folder type: npm install
